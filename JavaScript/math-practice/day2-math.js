@@ -16,3 +16,18 @@ console.log("Subtraction:", a - b);      // 7
 console.log("Multiplication:", a * b);   // 30
 console.log("Division:", a / b);         // 3.33
 console.log("Modulus:", a % b);          // 1
+
+// Question 4: Use comparison operators to compare two numbers
+let x = 5;
+let y = 10;
+
+console.log("x == y:", x == y);       // false
+console.log("x != y:", x != y);       // true
+console.log("x > y:", x > y);         // false
+console.log("x < y:", x < y);         // true
+console.log("x >= y:", x >= y);       // false
+console.log("x <= y:", x <= y);       // true
+console.log("x === y:", x === y);     // false (checks value + type)
+console.log("x !== y:", x !== y);     // true
+console.log("x === '5':", x === "5"); // false (checks value + type)
+console.log("x == '5':", x == "5");   // true (checks value only)

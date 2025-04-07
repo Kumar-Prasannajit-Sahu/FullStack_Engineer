@@ -35,7 +35,7 @@ console.log(msg5.trimStart());
 console.log(msg5.trimEnd()); // Remove whitespace from the start and end of the string
 
 let fullName = "Kumar Prasannajit Sahu";
-console.lof(`Uppercae: ${fullName.toUpperCase()}`); // Convert to uppercase
+console.log(`Uppercae: ${fullName.toUpperCase()}`); // Convert to uppercase
 console.log(`Lowercase: ${fullName.toLowerCase()}`); // Convert to lowercase
 console.log(`includes sahu: ${fullName.includes('sahu')}`); // Check if 'sahu' is in fullName
 console.log(`includes sahu: ${fullName.includes('Sahu')}`); // Check if 'Sahu' is in fullName

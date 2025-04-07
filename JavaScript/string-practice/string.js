@@ -33,3 +33,11 @@ for (let i = 0; i<sentence.length;i++){
 let msg5 = ' Welcome User ';
 console.log(msg5.trimStart());
 console.log(msg5.trimEnd()); // Remove whitespace from the start and end of the string
+
+let fullName = "Kumar Prasannajit Sahu";
+console.lof(`Uppercae: ${fullName.toUpperCase()}`); // Convert to uppercase
+console.log(`Lowercase: ${fullName.toLowerCase()}`); // Convert to lowercase
+console.log(`includes sahu: ${fullName.includes('sahu')}`); // Check if 'sahu' is in fullName
+console.log(`includes sahu: ${fullName.includes('Sahu')}`); // Check if 'Sahu' is in fullName
+console.log(`first name: ${fullName.split(" ")[0]}`); // Extract first name
+console.log(`Replaced to Boss: ${fullName.replace('sahu', 'Boss')}`); // Replace 'sahu' with 'Boss'

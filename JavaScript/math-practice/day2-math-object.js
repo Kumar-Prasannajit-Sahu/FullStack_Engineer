@@ -20,3 +20,4 @@ console.log("Random (0-1):", Math.random());
 // Random between 1 and 100
 let rand100 = Math.floor(Math.random() * 100) + 1;
 console.log("Random (1-100):", rand100);
+console.log("hello")

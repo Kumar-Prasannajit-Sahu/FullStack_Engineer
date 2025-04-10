@@ -3,3 +3,8 @@ let evenArr = arr.filter(num => num % 2 === 0);
 let squaredEvenArr = evenArr.map(num => num*num);
 let sumOfSquares = squaredEvenArr.reduce((acc,curr) => acc + curr, 0);
 console.log(sumOfSquares); // Output: 56 (2^2 + 4^2 + 6^2 = 4 + 16 + 36 = 56)
+
+let oddArr = arr.filter(num => num % 2 !== 0);
+let squaredOddArr = oddArr.map(num => num*num);
+let sumOfSquaresOdd = squaredOddArr.reduce((acc,curr) => acc + curr, 0);
+console.log(sumOfSquaresOdd); // Output: 35 (1^2 + 3^2 + 5^2 = 1 + 9 + 25 = 35)
